@@ -1,0 +1,248 @@
+header .logo {
+    max-width: 100px;
+}
+
+header .primary-menu li a {
+    font-weight: 500;
+    display: inline-block;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+header.fixed-header {
+    /* background: linear-gradient(96deg, #107fe6 0%, #a734cf 100%); */
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+header.fixed-header .primary-menu li a {
+    color: #000000;
+
+}
+
+header.fixed-header .logo {
+    max-width: 75px;
+}
+
+
+#Banner {
+    padding: 100px 0;
+
+}
+
+#FeaturesSection .feature-box {
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    min-height: 320px;
+}
+
+#FeaturesSection .feature-box .img-box {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+#FeaturesSection .feature-box .img-box img {
+    max-height: 200px;
+}
+
+#FeaturesSection .feature-box .img-box h5 {
+    margin-bottom: 0;
+}
+
+#PricingSection .options-list .option-box {
+    min-height: 225px;
+    padding: 20px;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+#PricingSection .options-list .option-box span {
+    background-color: #ffffff;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+#PricingSection .package-box {
+    height: 100%;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    /* background-color: #f3f3f3; */
+}
+
+#PricingSection .package-box h2 {
+    margin: 20px 0;
+}
+
+#PricingSection .package-box .package-features {
+    padding: 0 20px;
+}
+
+#PricingSection .package-box .package-features li {
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+#PricingSection .package-box .package-features li+li {
+    margin-top: 10px;
+}
+
+#PricingSection .package-box .package-features .icon {
+    flex: 0 0 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.reasons-content ul li .icon,
+.payment-methods ul li .icon {
+    flex: 0 0 35px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.reasons-content ul li+li,
+
+.payment-methods ul li+li {
+    margin-top: 20px;
+}
+
+#ContactSection .form-wrapper {
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+#ContactSection .form-wrapper label {
+    color: #ffffff;
+}
+
+
+#ContactSection .contact-content ul li .icon {
+    flex: 0 0 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+#ContactSection .contact-content ul li+li {
+    margin-top: 25px;
+}
+
+#ContactSection .contact-content ul li a {
+    color: #000000;
+}
+
+
+
+footer .footer-logo {
+    font-size: 16px;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+footer .footer-logo img {
+    max-width: 100px;
+}
+
+footer ul li a {
+    color: #ffffff;
+}
+
+footer .text-copyright {
+    font-size: 14px;
+}
+
+#ContactSection .social-links-list .social-icon {
+    display: inline-block;
+    max-width: 75px;
+    transition: all 200ms ease-in;
+}
+
+#ContactSection .social-links-list .social-icon:hover {
+    transform: translateY(-5px);
+}
+
+#ContactSection .contact-content .social-links-list li {
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#ContactSection .contact-content .social-links-list li+li {
+    margin-top: 0;
+    margin-left: 20px;
+
+}
+
+#PartnershipSection .partnership-box {
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.footer-social-links li a {
+    transition: all 300ms ease-in;
+    display: inline-block;
+    max-width: 50px;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.footer-social-links li a:hover {
+    transform: translateY(-5px);
+}
+
+.offering-box {
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.offering-box .img-box {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.offering-box .img-box img {
+    max-height: 200px;
+}
+
+.offering-box .overlay {
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 300ms ease-in;
+}
+
+.offering-box:hover .overlay {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
