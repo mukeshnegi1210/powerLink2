@@ -246,3 +246,46 @@ footer .text-copyright {
     opacity: 1;
     visibility: visible;
 }
+
+#TeamSection .left {
+    padding: 20px;
+}
+
+#TeamSection .right {
+    padding:40px 20px;
+}
+
+#TeamSection .team-member {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#TeamSection .team-member .team-member-img img {
+    max-width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #ffffff;
+}
+
+#TeamSection .team-member .team-member-socials li a {
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: all 300ms ease-in;
+}
+
+#TeamSection .team-member .team-member-socials li a:hover{
+background-color: #ffffff;
+color: #CD40FF;
+}
+#TeamSection .team-member .team-member-img .team-member-socials {}
+
+#TeamSection .team-member .team-member-img .team-member-socials {}
